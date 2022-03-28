@@ -1,0 +1,123 @@
+/* Body font and padding */
+body {
+  padding-left: 4em;
+  padding-right: 4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #f2f4ff;
+}
+
+/* H2 Font Size */
+h2 {
+  font-size: 2em;
+}
+
+/* Nav Border and padding */
+nav {
+  padding-bottom: 1em;
+  border-bottom: rgba(0, 0, 0, 0.384) 1px solid;
+}
+
+/* Max Image Width */
+img {
+  max-width: 100%;
+}
+
+/* H3 Alignment and Size */
+h3 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+/* Images positioning and size */
+.hero,
+.jacob {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Jacob Picture Size */
+.jacob {
+  padding-top: 1em;
+  width: 60%;
+}
+
+/* Welcome Message font size and positioning */
+.welcome {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+/* Nav Font */
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+/* Paragraph font */
+.about,
+.projects,
+.email {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+/* Web */
+@media only screen and (min-width: 650px) {
+  /* Nav font */
+  nav a {
+    font-size: 1.3em;
+  }
+
+  /* Nav hover */
+  nav a:hover {
+    color: rgba(0, 0, 0, 0.651);
+    transition: 0.3s;
+  }
+
+  /* H2 Size */
+  h2 {
+    font-size: 3em;
+  }
+
+  /* H3 size */
+  h3 {
+    font-size: 2em;
+  }
+
+  /* Welcome message font size */
+  .welcome {
+    font-size: 2em;
+  }
+
+  /* Hero image size */
+  .hero {
+    width: 15%;
+  }
+
+  /* Jacob image size */
+  .jacob {
+    width: 15%;
+  }
+
+  /* About text alignment */
+  .about {
+    text-align: center;
+  }
+
+  /* Paragraph font */
+  .about,
+  .projects,
+  .email {
+    font-size: 1.7em;
+  }
+}
